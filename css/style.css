@@ -2446,7 +2446,7 @@ blockquote {
     border-radius: 0;
     z-index: 1;
     font-weight: 500;
-    border-left: 2px solid #e88f2a!important;
+    border-left: 2px solid #1B4332!important;
 }
 blockquote p {
     font-size: 24px;
@@ -10817,7 +10817,7 @@ footer .widget_services ul li {
 
 /* scroll top btn css */
 button.scroltop {
-    background: #e88f2a;
+    background: #1B4332;
     border-radius: 8px 8px 0px 0px;
     bottom: 0;
     border: 0;

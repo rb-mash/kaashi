@@ -317,6 +317,16 @@ var CafeZone = function(){
 /* Document.ready Start */	
 jQuery(document).ready(function() {
     'use strict';
+	if (document.getElementById('loading-lottie') && window.lottie) {
+		var loadingAnimation = lottie.loadAnimation({
+			container: document.getElementById('loading-lottie'),
+			renderer: 'svg',
+			loop: true,
+			autoplay: true,
+			path: 'images/coffee.json'
+		});
+		loadingAnimation.setSpeed(1.5);
+	}
 	CafeZone.init();
 	
 });
